@@ -24,7 +24,7 @@ int main() {
     printf("Digite o total de moradores na cidade: ");
     scanf("%d", &populacao);
 
-    printf("Digite a área (tamanho) da cidade. Ex: 1000000 (Equivalente a 1milhão km²): ");
+    printf("Digite a área (tamanho) da cidade. Ex: 10000 (km²): ");
     scanf("%f", &area);
 
     printf("Digite digite qual o PIB da cidade: ");
@@ -33,13 +33,13 @@ int main() {
     printf("Quantos pontos turísticos a cidade possui?: ");
     scanf("%d", &ptr);
 
-    printf("Estado: %s \n", &estado);
-    printf("Código: %s \n", &codigo);
-    printf("Nome da Cidade: %s \n", &cidade);
-    printf("População: %d \n", &populacao);
-    printf("Área: %f km² \n", &area);
-    printf("PIB: %f \n", &pib);
-    printf("Total pontos turísticos: %d \n", &ptr);
+    printf("Estado: %s \n", estado);
+    printf("Código: %s \n", codigo);
+    printf("Nome da Cidade: %s \n", cidade);
+    printf("População: %d \n", populacao);
+    printf("Área: %.0f km² \n", area);
+    printf("PIB: %.0f \n", pib);
+    printf("Total pontos turísticos: %d \n", ptr);
 
     printf("Carta Cadastrada com Sucesso\n");
 
